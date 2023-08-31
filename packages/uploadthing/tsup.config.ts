@@ -10,6 +10,7 @@ export default defineConfig((opts) => ({
     "./src/next.ts",
     "./src/next-legacy.ts",
     "./src/tw.ts",
+    "./src/qwik.ts"
   ],
   clean: !opts.watch,
 }));
